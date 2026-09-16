@@ -1,0 +1,18 @@
+[project]
+name = "irodori-graph-tutor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.11.1",
+    "chromadb>=1.5.9",
+    "langchain-chroma>=1.1.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.6.0",
+    "langgraph>=1.2.11",
+    "pdfplumber>=0.11.10",
+    "pymupdf>=1.28.2",
+    "streamlit>=1.61.1",
+    "requests>=2.31.0",
+]

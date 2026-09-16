@@ -1,0 +1,23 @@
+# Direct dependencies for irodori_Japanese_textbook_reader
+# Generated from Python source analysis and venv freeze
+
+# Web framework for the interactive Japanese tutor app
+streamlit==1.64.0
+
+# HTTP requests (LM Studio API calls)
+requests==2.34.2
+
+# PDF parsing (PyMuPDF, imported as both 'fitz' and 'pymupdf')
+pymupdf==1.28.2
+
+# Image processing (PIL)
+pillow==12.3.0
+
+# Vector database for textbook content
+langchain-chroma==1.1.0
+
+# Ollama embeddings
+langchain-ollama==1.1.0
+
+# LangChain core utilities
+langchain-core==1.6.3
